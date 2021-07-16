@@ -1,0 +1,41 @@
+*{	
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+div{
+	position:fixed;
+	width:100%;
+}
+
+canvas{
+	
+	position: absolute;	
+    top: 50px;
+    left:300px;
+    border: 10px solid black;
+    display: block;
+
+}
+
+#btnMve{
+    position:absolute;
+    top: 700px;
+    left: 900px;
+	height:50px;
+    width:100px;
+    box-shadow: 5px 10px;
+	
+}	
+
+#btnClear {
+    position:absolute;
+    top: 700px;
+    left: 1080px;
+	height:50px;
+    width:100px;
+    box-shadow: 5px 10px;
+}
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
